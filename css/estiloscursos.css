@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body{
+    font-family: 'Playfair Display', serif;
+    margin: 0;
+    
+}
+
+#contenedor{
+    display: flex;
+    flex-direction: row;
+}
+
+#principal{
+    width: 60%;
+}
+
+#lateral{
+    width: 40%;
+    padding: 5px;
+}
+
+.cursoimg{
+    width: 100%;
+}
+
+.curso{
+    width: 33%;
+}
+
+#recomendados{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header{
+    color: #fff;
+    background-color: #082c52;
+    padding: 10px;
+}
+
+#temas{
+    background-color: rgb(184, 184, 181);
+    padding: 10px;
+}
+
+#objetivos{
+    padding: 10px;
+}
+
+#boton{
+    width: 80%;
+    height: 50px;
+    font-size: 1.5em;
+    color: rgb(192, 180, 180);
+    background-color: #7b85bb;
+    border: solid;
+    border-radius: 5px;
+}
+
